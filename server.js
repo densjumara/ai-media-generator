@@ -68,6 +68,11 @@ app.use((req, res) => {
   res.status(404).json({
     error: 'Route not found',
     path: req.path
+    "scripts": {
+  "start": "node server.js",
+  "dev": "node server.js"
+}
+
   });
 });
 
